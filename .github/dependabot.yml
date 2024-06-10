@@ -1,7 +1,7 @@
 version: 2
 registries:
   github:
-    type: "nuget"
+    type: nuget-feed
     url: "https://nuget.pkg.github.com/LegitSecurity/index.json"
     username: "eliran@legitsecurity.com"
     password: "${{secrets.TOKEN_PAT_ELIRAN}}"
