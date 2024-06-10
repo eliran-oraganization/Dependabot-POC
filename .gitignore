@@ -1,0 +1,11 @@
+publish/
+.idea
+obj/
+bin/
+.DS_Store
+node_modules/
+envfile
+ScmDataManagement.sln.DotSettings.user
+helm/charts/
+common-resharper-settings
+.history
