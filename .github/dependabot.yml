@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries:
+      github:
+        type: "nuget-feed"
+        url: "https://nuget.pkg.github.com/LegitSecurity/index.json"
+        username: "eliran@legitsecurity.com"
+        password: "${{secrets.TOKEN_PAT_ELIRAN}}"
+    labels:
+      - "dependencies"
+      - "nuget"
+    allow:
+      - dependency-name: "Legit.Common.*"
+    ignore:
+      - dependency-name: "Legit.Common.*"
+        versions: ["*.*.*-*"]
