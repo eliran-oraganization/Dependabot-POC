@@ -17,8 +17,8 @@ updates:
     registries:
       - custom-nuget
       - public-nuget #rfdsgfdsgdfs
-    allow:
-      - dependency-name: "Legit.Common.*"
+#    allow:
+#      - dependency-name: "Legit.Common.*"
 #updates:
 #  - package-ecosystem: "nuget"
 #    directory: "/"
