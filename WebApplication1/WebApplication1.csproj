@@ -7,11 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Autofac" Version="7.0.0" />
         <PackageReference Include="Legit.Common.EF6" Version="2.0.616" />
         <PackageReference Include="Legit.Common.License" Version="2.0.618" />
         <PackageReference Include="Legit.Common.Testing.EF" Version="2.0.593" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
     </ItemGroup>
 
