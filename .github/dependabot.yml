@@ -16,7 +16,7 @@ updates:
       interval: "daily"
     registries:
       - custom-nuget
-      - public-nuget #rfdsgfdsgdfs
+      - public-nuget #rfdsgfdsgdfsds
 #    allow:
 #      - dependency-name: "Legit.Common.*"
 #updates:
