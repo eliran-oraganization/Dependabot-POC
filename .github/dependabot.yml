@@ -16,7 +16,7 @@ updates:
       interval: "daily"
     registries:
       - custom-nuget
-      - public-nuget
+      - public-nuget #r
 #updates:
 #  - package-ecosystem: "nuget"
 #    directory: "/"
