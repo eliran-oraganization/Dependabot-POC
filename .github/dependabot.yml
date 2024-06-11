@@ -16,22 +16,6 @@ updates:
       interval: "daily"
     registries:
       - custom-nuget
-      - public-nuget #rfdsgfdsgdfsds
-#    allow:
-#      - dependency-name: "Legit.Common.*"
-#updates:
-#  - package-ecosystem: "nuget"
-#    directory: "/"
-#    schedule:
-#      interval: "daily"
-#    registries:
-#      - github
-#    labels:
-#      - "dependencies"
-#      - "nuget"
-#    allow:
-#      - dependency-name: "Legit.Common.*"
-#    ignore:
-#      - dependency-name: "Legit.Common.*"
-#        versions: [ "*.*.*-g" ] #r
-
+      - public-nuget
+    allow:
+      - dependency-name: "Legit.Common.*"
