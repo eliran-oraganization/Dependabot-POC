@@ -5,6 +5,9 @@ registries:
     url: "https://nuget.pkg.github.com/LegitSecurity/index.json"
     username: "eliran@legitsecurity.com"
     password: "${{secrets.TOKEN_PAT_ELIRAN}}"
+  public-nuget:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
 
 updates:
   - package-ecosystem: nuget
@@ -13,6 +16,7 @@ updates:
       interval: "daily"
     registries:
       - custom-nuget
+      - public-nuget
 #updates:
 #  - package-ecosystem: "nuget"
 #    directory: "/"
