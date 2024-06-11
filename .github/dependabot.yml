@@ -7,10 +7,17 @@ registries:
     password: "${{secrets.TOKEN_PAT_ELIRAN}}"
 
 updates:
-  - package-ecosystem: "nuget"
+  - package-ecosystem: nuget
     directory: "/"
     schedule:
       interval: "daily"
+    registries:
+      - custom-nuget
+#updates:
+#  - package-ecosystem: "nuget"
+#    directory: "/"
+#    schedule:
+#      interval: "daily"
 #    registries:
 #      - github
 #    labels:
