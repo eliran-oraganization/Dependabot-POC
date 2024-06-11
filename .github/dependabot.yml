@@ -20,5 +20,5 @@ updates:
       - dependency-name: "Legit.Common.*"
     ignore:
       - dependency-name: "Legit.Common.*"
-        versions: [ "*.*.*-g" ]
+        versions: [ "*.*.*-g" ] #r
 
