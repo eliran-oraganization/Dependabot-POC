@@ -18,4 +18,7 @@ updates:
       - "nuget"
     allow:
       - dependency-name: "Legit.Common.*"
+    ignore:
+      - dependency-name: "Legit.Common.*"
+        versions: [ "*.*.*-*" ]
 
