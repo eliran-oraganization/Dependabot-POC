@@ -11,13 +11,13 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    registries:
-      - github
-    labels:
-      - "dependencies"
-      - "nuget"
-    allow:
-      - dependency-name: "Legit.Common.*"
+#    registries:
+#      - github
+#    labels:
+#      - "dependencies"
+#      - "nuget"
+#    allow:
+#      - dependency-name: "Legit.Common.*"
     ignore:
       - dependency-name: "Legit.Common.*"
         versions: [ "*.*.*-g" ] #r
